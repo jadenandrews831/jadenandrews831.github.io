@@ -1,0 +1,129 @@
+/*
+* Keyframes and Animations
+* image box-shadow animation
+*/
+
+@keyframes image_box-shadow {
+  0% {
+    box-shadow: 1px 1px 1px rgb(36, 35, 35);
+  }
+  100% {
+    box-shadow: 5px 5px 5px rgb(36, 35, 35);
+  }
+}
+
+body {
+  background-color: rgb(250, 235, 215);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-items: right;
+  text-align: right;
+  width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
+
+.images {
+  width: 300px;
+  height: 300px;
+}
+.images:hover {
+  cursor: help;
+}
+
+#images-exception:hover {
+  cursor: pointer;
+}
+
+.images_long {
+  width: 300px;
+  height: 125px;
+}
+
+.image_stack {
+  display: flex;
+  flex-direction: column;
+  align-self: right;
+  justify-self: left;
+}
+
+.image_queue {
+  display: flex;
+}
+
+#image_queue_right {
+  justify-content: flex-end;
+}
+
+h1,
+li {
+  font-family: monospace;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.sub_text {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#list {
+  display: flex;
+  justify-content: center;
+}
+
+.hyperlink,
+a {
+  text-align: center;
+  color: rgb(36, 35, 35);
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-family: monospace;
+  font-weight: 900;
+}
+
+td {
+  font-family: monospace;
+}
+
+#little_prince_body {
+  margin: auto;
+  text-align: center;
+}
+
+#little_prince_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#lp_p {
+  width: 350px;
+  text-align: left;
+  word-wrap: normal;
+  margin: auto;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.orange_highlight {
+  background-color: orange;
+}
+
+.red_text {
+  color: red;
+  font-weight: bold;
+}
